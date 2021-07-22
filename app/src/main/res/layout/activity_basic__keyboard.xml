@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".Basic_Keyboard">
+
+    <TextView
+        android:id="@+id/heading_basic"
+        android:layout_width="331dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="Type the given Text:"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_provided_basic"
+        android:layout_width="331dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:hint="Enter Text Here.."
+        android:text="The quick brown fox jumps over the lazy dog"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading_basic" />
+
+
+    <EditText
+        android:id="@+id/text_entered_basic"
+        android:layout_width="331dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_provided_basic" />
+
+
+    <Button
+        android:id="@+id/next_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginRight="268dp"
+        android:background="#FFFFFF"
+        android:text="Next"
+        android:textColor="#FBFBFB"
+        app:backgroundTint="#0C0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_entered_basic" />
+
+    <Button
+        android:id="@+id/Move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="#FFFFFF"
+        android:text="Implementation"
+        android:visibility="invisible"
+        app:backgroundTint="#090909"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toEndOf="@+id/next_basic"
+        app:layout_constraintTop_toBottomOf="@+id/text_entered_basic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

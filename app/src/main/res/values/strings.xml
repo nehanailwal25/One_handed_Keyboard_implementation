@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Keyboard_App</string>
+    <string name="title_activity_basic_keyboard">basic_keyboard</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="instruction_text">
+        <![CDATA[
+        <p>"<b>1.</b> You can click on any of the below buttons to navigate to the exact keyboard, for practice purpose.<br/>
+            <b>2.</b> While Performing the Experiment, You can click on the 'Base Line' first and then you will see a button mentioning 'Implementation' after you have finished the Base line experiment, which will help you navigate to the next keyboard directly.<br/>
+            <b>3.</b> You are required to Enter 5 different phrases that will occur every time you will click on the Next Button provided.<br/>
+            <b>4.</b> After the fifth phase you will see a Submit Button which will show up all the available options for sharing the file generated (Please mention which keyboard's data it is in message or the file name itself). </p>
+            <p><b><u>\n\nBaseline Keyboard (Qwerty Keyboard):</u></b><br/>
+            <b>></b> After clicking this you will see a phrase to be entered in the Text Box.<br/>
+            <b>></b> Once you have typed the phase perfectly please click on NEXT button to go to the next phrase and repeat the process again.<br/>
+            <b>></b> After typing the fifth phase you have to click on SUBMIT button to provide the data.<br/>
+            <b>></b> Right after submitting the data you can click on the IMPLEMENTATION button to navigate to the Implemented keyboard.<br/>
+            <b>></b> There is a Timer also implemented to check the speed which will start as soon as you enter something in the Text Box everytime.</p>
+            <p><b><u>\n\nImplemented Keyboard:</u></b><br/>
+            <b>></b> This keyboard is specifically designed for one-handed Text Entry.<br/>
+            <b>></b> You will again see the phrases here in the same way as the Baseline keyboard experiment.<br/>
+            <b>></b> Navigation through phases is again same as the Baseline experiment.<br/>
+            <b>></b> There is a timer implemented in this as well but here before typing the phrase you have to click on a Button 'T' to start the timer with every phrase and timer will automatically stop for that entry when you will click on NEXT button.<br/>
+            <b>></b> After the fifth phrase you will see SUBMIT button to submit the data generated same as the baseline experiment (please don't forget to mention which keyboard's data it is while saving/sending).</p>
+            <p><b><i><u>\n\nThings to remember:</u></i></b><br/>
+            <b>a.</b> Please perform both experiments with one-handed input only. So, that the data is accurate.<br/>
+            <b>b.</b> Also, Please be informed that there will be a check on accuracy as well so whenever you make a mistake please correct it immediately instead of removing the whole text and typing again.</p>
+            <p><b>\n\n Let's Go.."</b></p>]]>
+    </string>
+
+    <string name="welcome_test">
+        <![CDATA[
+         <h4>"Welcome to the Application!!</h4>
+            <p>Here you go for your experience of new text entry method for mobile devices!!<br/>
+            In this Application you will see the implementation of a new keyboard.<br/>
+            To check the efficiency the newly implemented keyboard is being tested with the baseline(Qwerty) keyboard.<br/>
+            You will see a combination of colorful keys in the one-handed style that will eventually give you more speed and will make the learning experience easy too.</p><br/>
+            <p><b><u>About The New keyboard:</u></b><br/>
+            <b>1.</b> The keyboard is in the right hand side of the phone to give an easy access to users via One hand (as most of the users are right-handed).<br/>
+            <b>2.</b> In the Keyboard the keys that are mostly used are on the outermost side in the keys section.<br/>
+            <b>3.</b> All the highly used keys are in RED, Moderately used keys are in YELLOW and least used keys are in ORANGE.<br/>
+            <b>4.</b> For writing any alphabet you can directly tap where the alphabet is seen (same applies for Numbers and special characters).<br/>
+            <b>5.</b> As an added advantage for quick access, For writing the alphabet that is on the upper part of a key you can click one time in the space available between those two alphabets, similarly for writing the second alphabet you can just double click in that same space.<br/>
+            <b>6.</b> There is a CAPS Key with upward arrow that will capitalise or de-capitalise all the alphabets. (For this experiment casing can be ignored).<br/>
+            <b>7.</b> There is a Number's key, on clicking on that you will be able to see the Numbers and Special Characters. Also, this key will be converted to to AZ key on clicking on that you will be navigated back to the Alphabet keys.<br/>
+            <b>8.</b> Backspace, Space and Enter keys works exactly as in the Base Line keyboard.</p>
+            <p>Please remember you are always free to explore the keypad so I would request you to practice as much as you want, the space is all yours !</p><br/>
+            <p>This implementation is to make sure that the text entry speed will be increased.</p>
+            <h5>Going on to the next page you will see all the instructions written to make the experience smooth.</h5>
+            <p>Please click on Start button below to navigate to the Instructions Tab."</p>]]>
+    </string>
+
+</resources>

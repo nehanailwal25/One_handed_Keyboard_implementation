@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keyboard_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Keyboard_App">
+        <activity android:name=".Basic_Keyboard"></activity>
+        <activity
+            android:name=".basic_keyboard"
+            android:label="@string/title_activity_basic_keyboard"
+            android:theme="@style/Theme.Keyboard_App.NoActionBar"></activity>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/border" />
+
+        <activity android:name=".Built_Keyboard" />
+        <activity android:name=".InstructionsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.keyboard_app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
